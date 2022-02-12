@@ -12,6 +12,7 @@ import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import com.makeappssimple.abhimanyu.multiflavors.android.content.getContent
 import com.makeappssimple.abhimanyu.multiflavors.android.ui.theme.MultiFlavorsTheme
 
 class MainActivity : ComponentActivity() {
@@ -39,7 +40,7 @@ fun Greeting() {
         modifier = Modifier.fillMaxSize(),
     ) {
         Text(
-            text = getGreetingText(),
+            text = getContent(),
         )
     }
 }
