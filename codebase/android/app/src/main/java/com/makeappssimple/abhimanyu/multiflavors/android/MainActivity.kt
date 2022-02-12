@@ -39,7 +39,7 @@ fun Greeting() {
         modifier = Modifier.fillMaxSize(),
     ) {
         Text(
-            text = "Hello Android!",
+            text = getGreetingText(),
         )
     }
 }
